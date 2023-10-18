@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/Image"
+import Image from "next/Image";
 export default function Home(){
   return(
     <>
@@ -7,9 +7,9 @@ export default function Home(){
 
       <div>
         <ul>
-          <Link href="/produtos/tenis">TÊNIS</Link><br/>
-          <Link href="/produtos/camisetas">CAMISETAS</Link><br/>
-          <Link href="/produtos/calcas">CALÇAS</Link> 
+          <li><Link href="/produtos/tenis">TÊNIS</Link><br/></li>
+          <li><Link href="/produtos/camisetas">CAMISETAS</Link><br/></li>
+          <li><Link href="/produtos/calcas">CALÇAS</Link></li> 
         </ul>
 
         <figure>
